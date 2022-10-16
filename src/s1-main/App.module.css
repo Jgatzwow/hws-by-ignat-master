@@ -3,9 +3,22 @@
 }
 
 .hw {
-
+    border: 1px solid #D9D9D9;
 }
 
 .hwTitle {
-
+    margin: 107px 0 10px 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+.messages__wrapper {
+    margin-top: 24px;
+    margin-bottom: 56px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
 }

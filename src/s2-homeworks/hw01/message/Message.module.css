@@ -3,29 +3,86 @@
 }
 
 .imageAndText {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
 }
 
 .imageAndText img {
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 5px;
+    margin-right: 70px;
 
 }
 
 .text {
-
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0 10px 0 13px;
+    margin-right: 5px;
+    gap: 3px;
+    background: #0066CC;
+    border-radius: 5px 5px 0 5px;
+    box-shadow: 0 5px 20px rgba(29, 33, 38, 0.03), 0 1px 2px rgba(29, 33, 38, 0.1);
 }
 
-.text:after {
-
+.text::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;
+    border-left-color: #0066CC;
+    border-right: 0;
+    border-bottom: 0;
+    margin-top: 0;
+    margin-right: -12px;
+    background: radial-gradient(circle at 0 0, rgba(0,0,0,0) 15px, rgba(0, 0, 0, 0.85) 0);
 }
+/*.angle {
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, rgba(0,0,0,0) 15px, rgba(0, 0, 0, 0.85) 0);
+}*/
 
 .name {
-
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding-top: 7px;
 }
 
 .messageText {
-
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
 }
 
 .time {
-
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    margin-right: 81px;
+    color: #000000;
 }

@@ -23,6 +23,7 @@ export const Sidebar: FC<PropsType> = ({ open, handleClose }) => {
 
         <nav id={"hw5-menu"} className={s.nav}>
           <NavLink
+            end
             id={"hw5-pre-junior-link"}
             to={PATH.PRE_JUNIOR}
             onClick={handleClose}
@@ -31,6 +32,7 @@ export const Sidebar: FC<PropsType> = ({ open, handleClose }) => {
             Pre-junior
           </NavLink>
           <NavLink
+            end
             id={"hw5-junior-link"}
             to={PATH.JUNIOR}
             onClick={handleClose}
@@ -39,6 +41,7 @@ export const Sidebar: FC<PropsType> = ({ open, handleClose }) => {
             Junior
           </NavLink>
           <NavLink
+            end
             id={"hw5-junior-plus-link"}
             to={PATH.JUNIOR_PLUS}
             onClick={handleClose}

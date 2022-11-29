@@ -5,7 +5,7 @@ const SuperRange: React.FC<SliderProps> = (props) => {
   return (
     <Slider
       sx={{
-        width: 500,
+        width: "500px",
         color: "success.main",
         "& .MuiSlider-thumb": {
           borderRadius: "10px",

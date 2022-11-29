@@ -41,7 +41,7 @@ function HW11() {
               getAriaLabel={() => "Price range"}
               value={value1}
               min={0}
-              max={100}
+              max={value2}
               onChange={change}
               // сделать так чтоб value1 изменялось // пишет студент
             />

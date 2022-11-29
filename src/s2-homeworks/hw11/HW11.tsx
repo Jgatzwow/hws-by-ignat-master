@@ -37,6 +37,8 @@ function HW11() {
             </span>
             <SuperRange
               id={"hw11-single-slider"}
+              valueLabelDisplay={"auto"}
+              getAriaLabel={() => "Price range"}
               value={value1}
               min={0}
               max={100}
@@ -50,6 +52,8 @@ function HW11() {
             </span>
             <SuperRange
               id={"hw11-double-slider"}
+              getAriaLabel={() => "Price range"}
+              valueLabelDisplay={"auto"}
               value={[value1, value2]}
               min={0}
               max={100}
